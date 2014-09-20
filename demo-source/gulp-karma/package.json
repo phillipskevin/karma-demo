@@ -1,0 +1,27 @@
+{
+  "name": "karma-demo-gulp",
+  "version": "1.0.0",
+  "description": "Karma Demo for JS Chi - Demo Source Code Using gulp-karma",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phillipskevin/karma-demo"
+  },
+  "author": "Kevin Phillips",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-karma": "0.0.4",
+    "karma": "^0.12.23",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-coverage": "^0.2.6",
+    "karma-jasmine": "^0.1.5",
+    "minimist": "^1.1.0"
+  }
+}

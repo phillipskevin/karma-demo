@@ -1,3 +1,5 @@
 ~*
 
 demo-source/**/karma-coverage/
+
+**/node_modules/

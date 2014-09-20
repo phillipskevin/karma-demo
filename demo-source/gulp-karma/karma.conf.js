@@ -40,7 +40,7 @@ module.exports = function(config) {
 
     // create html coverage report in karma-coverage directory
     coverageReporter: {
-        type: 'html',
+        type: 'text-summary',
         dir: 'karma-coverage'
     },
 
@@ -59,12 +59,12 @@ module.exports = function(config) {
 
 
     // enable / disable watching file and executing tests whenever any file changes
-    autoWatch: true,
+    autoWatch: false,
 
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chrome'],
+    browsers: ['PhantomJS'],
 
 
     // Continuous Integration mode
